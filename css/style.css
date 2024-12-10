@@ -866,3 +866,20 @@ body {
   }
 
 }
+
+
+  /* Style for the container section */
+  .iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Full viewport height */
+}
+
+/* Style for the iframe */
+.iframe {
+    width: 80%; /* Adjust size */
+    max-width: 1200px; /* Limit the maximum width */
+    height: 80%; /* Adjust size */
+    border: none; /* Remove the border */
+}
