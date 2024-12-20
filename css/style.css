@@ -84,7 +84,7 @@
    */
 
   --section-padding: 24px;
-  --top-bar-height: 64px;
+  --top-bar-height: 80px;
 
 }
 
@@ -422,7 +422,7 @@ body {
   margin-block-start: 24px;
   margin-inline: 16px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   border-block-end: 1px solid var(--outline-variant);
 }
